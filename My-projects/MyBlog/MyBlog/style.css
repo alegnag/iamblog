@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Girassol&family=Roboto+Condensed:ital@0;1&family=Secular+One&display=swap');
+
+
+body {
+    margin: 0;
+    margin-block-start: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
+    block-size: 50px;
+    line-height: 50px;
+    background-color: white;
+}
+
+header * {
+    display: inline;
+    block-size: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-inline-start: 20px;
+}
+
+header center {
+    position: fixed;
+}
+
+section {
+    block-size: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    inline-size: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Add everything below here */
+
+#hero h1 {
+  color: rgb(255, 255, 255);
+  text-shadow:  5px 4px 5px white;
+  font-family: 'Chivo Mono', monospace;
+  font-size: 55px;
+}
+
+section h2 {
+    color: white;
+    text-shadow:  5px 4px 5px white;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 55px;    
+}
+
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Add everything below here */
+
+
+#hero {
+    background-image: url(./image/11.png);
+}
+
+#about {
+    background-image: url(./image/solnegrowdy.png);}
+
+#experience {
+    background-image: url(./image/lui.png);
+}
+
+#performance {
+    background-image: url(./image/TrianguloSEDIFICIOBEN.png);
+    color: white;
+}
+
+@media only screen and (max-width: 480px) {
+    img {
+    width: 100%;
+    }
+    }
